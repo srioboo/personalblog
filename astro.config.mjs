@@ -27,6 +27,7 @@ export default defineConfig({
     vue(),
     sitemap({
       filter: shouldIncludePage,
+
     }),
   ],
   markdown: {
