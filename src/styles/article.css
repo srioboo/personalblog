@@ -40,20 +40,22 @@
 
 .article__content .nav__wrapper {
   position: absolute;
-  top: 8rem;
-  left: 8rem;
-  background-color: rgb(156 163 175);
+  top: .5rem;
+  left: .5rem;
+  background-color: rgba(3, 7, 24, 0.925);
   margin: 0.5rem;
   border-radius: 0.5rem;
 }
 
 .article__content .nav__wrapper .nav {
   margin-top: 1.25rem;
+  padding: 0.1rem 1rem;
 }
 
 .article__content .nav__wrapper .nav .nav__tag {
   font-size: 1.25rem;
   line-height: 1.75rem;
+  color: wheat;
 }
 
 /* Code block chrome, ported from components/content/ProseCode.vue.
