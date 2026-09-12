@@ -23,6 +23,10 @@ function shouldIncludePage(page) {
 
 export default defineConfig({
   site,
+  trailingSlash: 'never',
+  build: {
+    format: 'file',
+  },
   integrations: [
     vue(),
     sitemap({
